@@ -7,7 +7,7 @@
 	<property name="classes.dir" location="${build.dir}/classes" />
 	<property name="webcontent.dir" location="WebContent"/>
 	<property name="lib.dir" location="${webcontent.dir}/WEB-INF/lib"/>
-	<property name="ivy.retrieve.pattern" value="${lib.dir}/[artifact]­[type]­[revision].[ext]" />
+	<property name="ivy.retrieve.pattern" value="${lib.dir}/[artifact]-[type]-[revision].[ext]" />
 
 	<property name="webContent.dir" location="WebContent" />
 	<property name="war.file" location="martinkaru.war" />
