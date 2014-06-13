@@ -16,6 +16,7 @@ public class HomePage extends HttpServlet {
 	{
 		HttpSession session = request.getSession();
 		Object param = request.getParameter("param");
+
 		
 		response.getWriter().println("System says Hi!");
 		response.getWriter().printf("Your session id is %s", session.getId());
